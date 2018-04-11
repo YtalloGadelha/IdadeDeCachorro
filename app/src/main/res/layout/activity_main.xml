@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b9d5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/cachorro" />
+
+    <EditText
+        android:id="@+id/caixaTextoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="#4fc4d6"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Digite a idade de seu cachorro, para descobrir a idade dele em anos humanos."
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/botaoIdadeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:text="@string/descobrir_idade" />
+
+    <TextView
+        android:id="@+id/resultadoIdadeId"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="213dp"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
